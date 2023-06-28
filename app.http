@@ -1,0 +1,23 @@
+### API for logging using name and password
+POST https://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "vijay",
+    "password": "#Vijay3953"
+}
+
+### API for adding the new customer to customers table
+POST https://localhost:3000/customers/
+Content-Type: application/json
+
+{
+    "name": "vijay",
+    "phoneNumber": "7680029440",
+    "email": "vijaydumpeti70@gmail.com"
+}
+
+### API for getting subjects of each customer
+
+GET https://localhost:3000/get-subjects/
+
